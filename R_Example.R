@@ -1,3 +1,3 @@
 data(iris)
 head(iris)
-print("Hello")
+plot(iris$Sepal.Length, iris$Sepal.Width)
